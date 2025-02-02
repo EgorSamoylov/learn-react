@@ -1,0 +1,23 @@
+.myBtn {
+    padding: 5px 15px; /* отступы */
+    color: white;
+    font-size: 16px; /* размер шрифта */
+    background: rgba(0, 0, 0, 0); /* цвет заднего фона - прозрачный */
+    background-color: rgb(70, 143, 253);
+    border: solid 2px rgb(70, 143, 253);
+    text-decoration-color:rgb(70, 143, 253);
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    font-family: Arial, Helvetica, sans-serif; /* тип шрифта */
+    border-radius: 12px;
+    margin: 5px 10px;
+    /* margin-right: 0px; */
+    height: 40px;
+    /* border: 1px solid teal; граница сплошная темно-зеленая толщиной в 1 px */
+    cursor: pointer;
+}
+
+.myBtn:hover {
+    background-color: rgb(90, 156, 255);
+    border: solid 2px rgb(90, 156, 255);
+    color: white;
+}
